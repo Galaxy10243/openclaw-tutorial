@@ -1,0 +1,50 @@
+{
+  "agents": {
+    "list": [
+      {
+        "id": "main",
+        "model": {
+          "primary": "minimax-portal/MiniMax-M2.5"
+        },
+        "identity": {
+          "name": "小管家",
+          "emoji": "🏠"
+        }
+      },
+      {
+        "id": "media-operations",
+        "identity": {
+          "name": "自媒体运营小助手",
+          "emoji": "📱"
+        }
+      },
+      {
+        "id": "office-worker",
+        "identity": {
+          "name": "办公小助手",
+          "emoji": "📎"
+        }
+      },
+      {
+        "id": "tech-engineer",
+        "identity": {
+          "name": "技术工程师",
+          "emoji": "💻"
+        }
+      },
+      {
+        "id": "research-professor",
+        "identity": {
+          "name": "科研教授",
+          "emoji": "🔬"
+        }
+      }
+    ]
+  },
+  "channels": {
+    "telegram": {
+      "dmPolicy": "open",
+      "groupPolicy": "open"
+    }
+  }
+}
